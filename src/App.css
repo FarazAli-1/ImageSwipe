@@ -1,0 +1,90 @@
+/* App.css */
+
+.app {
+  text-align: center;
+  margin-top: 50px;
+  font-family: 'Arial', sans-serif;
+}
+
+.title{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 200px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.image-container {
+  width: 700px;
+  height: 700px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #f0f0f0;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.image:hover {
+  transform: scale(1.1);
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.like-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.like-button:hover {
+  background-color: #45a049;
+}
+
+.dislike-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.dislike-button:hover {
+  background-color: #e53935;
+}
+
+.refresh {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #2196F3;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.refresh:hover {
+  background-color: #58a0db;
+}
+
+
+.likeDislikeCount{
+  font-size: 20px;
+}
+
+.img-count{
+  font-size: 20px;
+}
