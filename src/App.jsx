@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./App.css"; // Make sure to import the CSS
+import "./App.css";
 
 const images = [
   "https://images.pexels.com/photos/443446/pexels-photo-443446.jpeg",
