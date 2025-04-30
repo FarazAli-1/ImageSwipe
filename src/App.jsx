@@ -64,7 +64,7 @@ export default function App() {
     setImgNum(1);
   }
   return (
-    <div className="app">
+    <div className="container">
       <div className="title">
        <span>ImageSwipe</span>
       </div>
